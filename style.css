@@ -37,7 +37,60 @@ body{
         /*----------------
         2nd section Styles 
         -----------------*/
+        .popular-collection{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         .section-title{
             text-align: center;
-            padding-bottom: 10px;
+            padding-bottom: 20px;
         }
+        .collections{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 50px;
+        }
+        .collection{
+           width: 330px;
+           border: 1px solid linen;
+           border-radius: 10px;
+           margin: 0 20px;
+           box-shadow: 10px 10px 10px lightgray ;
+        }
+        .thumbnail{
+            padding: 20px 15px;
+        }
+        .details{
+            padding-left: 15px;
+        }
+        .info{
+           padding-left: 15px;
+           font-size: 12px;
+        }
+        .details p{
+            font-size: 20px;
+        }
+        .fa-star.filled{
+            color: orange;
+        }
+        .fa-star.empty{
+            color: lightgray;
+        }
+       .info span {
+            padding-left: 10px;
+            color: grey;
+            font-size: 15px;
+        }
+        .info p{
+            color: rgb(97, 95, 95);
+            font-size: 15px
+        }
+        .see-more{
+            text-decoration: none;
+            color: #E02C6D;
+            font-weight: 700;
+            margin: 40px 0;
+            padding-left: 980px;    
+        }
+            
