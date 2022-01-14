@@ -13,6 +13,7 @@ body{
 .container{
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
 .journey{
    width: 100%;
@@ -33,3 +34,10 @@ body{
 
 
 }
+        /*----------------
+        2nd section Styles 
+        -----------------*/
+        .section-title{
+            text-align: center;
+            padding-bottom: 10px;
+        }
